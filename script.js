@@ -106,7 +106,7 @@
         }
 
         function renderLeaderboardTable(leaderboard) {
-            const sortedLeaderboard = leaderboard.sort((a, b) => b.score - a.score))
+            const sortedLeaderboard = leaderboard.sort((a, b) => b.score - a.score)
             leaderboardTableBody.innerHTML = '';
             if (sortedLeaderboard.length === 0) {
                 const row = document.createElement('tr');
